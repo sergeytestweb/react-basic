@@ -1,0 +1,12 @@
+.Button {
+    padding: 10px;
+    box-sizing: border-box;
+    font-style: 18px;
+    background-color: #0d6efd;
+    color: white;
+    border-color: #0d6efd;
+}
+
+.Button--secondary {}
+.Button--success {}
+.Button--danger {}
