@@ -6,9 +6,10 @@ import Button from "./components/Button/Button";
 const App = () => {
   return (
     <div>
-      <Button>Privet 1</Button>
-      <Button>Privet 2</Button>
-      <Button>Privet 3</Button>
+      <Button>По умолчанию</Button>
+      <Button mode="secondary" size='small'>Второстепенная</Button>
+      <Button mode="success" size='large'>Успех</Button>
+      <Button mode="danger" disabled className="evilClass">Лажа</Button>
     </div>
   );
 };

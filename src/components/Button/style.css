@@ -1,12 +1,41 @@
 .Button {
-    padding: 10px;
     box-sizing: border-box;
-    font-style: 18px;
-    background-color: #0d6efd;
-    color: white;
-    border-color: #0d6efd;
+    color: #fff;
 }
 
-.Button--secondary {}
-.Button--success {}
-.Button--danger {}
+.Button--small {
+    padding: 3px;
+    font-size: 8px;
+}
+
+.Button--normal {
+    padding: 10px;
+    font-size: 18px;
+
+}
+
+.Button--large {
+    padding: 14px;
+    font-size: 14px;
+
+}
+
+.Button--primary {
+    background-color: #087bff;
+    border-color: #087bff;
+}
+
+.Button--secondary {
+    background-color: #6c757d;
+    border-color: #6c757d;
+}
+
+.Button--success {
+    background-color: #198754;
+    border-color: #198754;
+}
+
+.Button--danger {
+    background-color: #dc3545;
+    border-color: #dc3545;
+}
