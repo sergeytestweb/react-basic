@@ -39,3 +39,11 @@
     background-color: #dc3545;
     border-color: #dc3545;
 }
+
+.button__counter {
+    background-color: #fff;
+    margin-left: 5px;
+    padding: 5px;
+    color: black;
+    border-radius: 5px;
+}
